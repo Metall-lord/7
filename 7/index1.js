@@ -6,4 +6,4 @@ if (PodschetHorosho >= 10) {const PodschetFiveProcent = KarzinaStoimost/100*5; O
 if (KarzinaStoimost > 50000) {const PodschetTwentyProcent = ObshayaStoimost/100*20; const PodschetDifference = ObshayaStoimost - 50000; ObshayaStoimost = PodschetDifference - PodschetTwentyProcent; console.log('Более 50 000 ₽: ' + ObshayaStoimost + '₽');}
 if (Talonchik = 'Акция: СКИДКА15' && KarzinaStoimost >= 20000) {const PodschetPedesaytProcent = ObshayaStoimost/100*15; ObshayaStoimost -= PodschetPedesaytProcent; console.log('Акция: СКИДКА15 ' + ObshayaStoimost +'₽'); }
 console.log('Стоимость товаров равна: ' + ObshayaStoimost + '₽');}
-cart(100000, 12, 'Промокод: ДАРИМ300');
+cart(200000, 16, 'Промокод: ДАРИМ300');
